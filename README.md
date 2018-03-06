@@ -9,6 +9,19 @@ A simple and minimal starter kit for [bucklescript-tea](https://github.com/Overm
 * [webpack4 (for building browser compatible JS)](https://webpack.js.org/)
 * [bs-css (statically typed CSS)](https://github.com/SentiaAnalytics/bs-css)
 
+## Dependencies
+
+* bs-css
+
+## Dev Dependencies
+
+* bs-platform
+* bucklescript-tea
+* npm-run-all
+* webpack
+* webpack-cli
+* webpack-dev-server
+
 ## Install
 
 Run the following commands for installation:
