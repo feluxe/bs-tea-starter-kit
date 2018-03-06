@@ -34,7 +34,7 @@ Explanation: The above command runs BuckleScript to convert `src/Demo.re` into `
 
 ## Watch / Server
 
-This watches the src directory for changes and rebuilds the files automatically. It also runs a dev server at `localhost:9000`, showing the results.
+This watches the `src` directory for changes and rebuilds the files automatically. It also runs a dev server at `localhost:9000`, showing the results.
 
 ```
 npm run watch
