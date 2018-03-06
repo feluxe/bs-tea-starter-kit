@@ -1,0 +1,31 @@
+{
+  "name": "buckle",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean",
+    "clean:all": "bsb -clean-world",
+    "build:bsb": "bsb -make-world -theme basic-reason",
+    "build:js": "webpack",
+    "build": "run-s build:bsb build:js",
+    "watch:bsb": "bsb -make-world -w -theme basic-reason",
+    "watch:js": "webpack-dev-server",
+    "watch": "run-p watch:bsb watch:js",
+    "start": "run-s watch"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^2.2.2",
+    "bucklescript-tea": "^0.7.1",
+    "npm-run-all": "^4.1.2",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "dependencies": {
+    "bs-css": "^6.3.1"
+  }
+}
