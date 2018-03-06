@@ -11,7 +11,7 @@ A simple and minimal starter kit for [bucklescript-tea](https://github.com/Overm
 
 ## Install
 
-Run the following commands to install the starter kit:
+Run the following commands for installation:
 
 ```
 git clone https://github.com/feluxe/bs-tea-starter-kit.git
