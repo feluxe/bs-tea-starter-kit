@@ -3,7 +3,7 @@
 
 ## Description
 
-A simple and minimal starter kit for [bucklescript-tea]. This starter kit uses:
+A simple and minimal starter kit for [bucklescript-tea](https://github.com/OvermindDL1/bucklescript-tea). This starter kit uses:
 
 * [ReasonML (Syntax)](https://reasonml.github.io/)
 * [webpack4 (for building browser compatible JS)](https://webpack.js.org/)
