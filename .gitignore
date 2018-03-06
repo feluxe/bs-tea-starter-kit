@@ -5,6 +5,6 @@
 .history
 npm-debug.log
 /lib/bs/
-/node_modules/
 /dist/bundle.js
 /src/Demo.bs.js
+/node_modules/
