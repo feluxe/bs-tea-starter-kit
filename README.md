@@ -1,4 +1,4 @@
-# Bucklescript-Tea Starter kit
+# Bucklescript-Tea Starter-Kit
 
 
 ## Description
