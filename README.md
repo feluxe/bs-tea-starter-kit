@@ -23,15 +23,18 @@ npm install
 
 ## Build
 
-This runs `bsb` (bucklescript) to convert the `.re` file to `.js` and then it runs `webpack` to convert the `.js` file to a browser compatible `.js` file.
+Run this to build the starter kit:
 
 ```
 npm run build
 ```
 
+Explanation: The above command runs BuckleScript to convert `src/Demo.re` into `src/Demo.bs.js` and then it runs Webpack to convert `src/Demo.bs.js` into a browser compatible `dist/bundle.js`.
+
+
 ## Watch / Server
 
-Watche the src directory for changes and run a dev server at `localhost:9000`.
+Watch the src directory for changes and rebuilds the files automatically. It also runs a dev server at `localhost:9000`, showing the results.
 
 ```
 npm run watch
