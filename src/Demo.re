@@ -27,7 +27,12 @@ let update = model =>
  VIEW
   */
 /* Global Style Example */
-Css.(global("body", [padding(px(0)), margin(px(0)), backgroundColor(white)]));
+Css.(
+  global(
+    "body",
+    [padding(px(0)), margin(px(0)), backgroundColor(white)],
+  )
+);
 
 /* Styles Definition Example */
 module Styles = {
@@ -37,7 +42,7 @@ module Styles = {
       padding(px(20)),
       margin(px(0)),
       backgroundColor(black),
-      textAlign(center)
+      textAlign(center),
     ]);
   let headline = Css.style([margin(px(0)), color(rgb(230, 230, 230))]);
   let container =
@@ -45,7 +50,7 @@ module Styles = {
       display(flexBox),
       justifyContent(center),
       backgroundColor(white),
-      margin(px(20))
+      margin(px(20)),
     ]);
   let number = Css.style([fontSize(px(100))]);
 };
@@ -58,7 +63,12 @@ let view = model =>
     [
       header(
         [class'(Styles.header)],
-        [h1([class'(Styles.headline)], [text("BuckleScript Tea Starter Kit")])]
+        [
+          h1(
+            [class'(Styles.headline)],
+            [text("BuckleScript Tea Starter Kit")],
+          ),
+        ],
       ),
       nav(
         [class'(Styles.container)],
@@ -74,14 +84,14 @@ let view = model =>
             view_button("Reset", Reset);
           } else {
             noNode;
-          }
-        ]
+          },
+        ],
       ),
       div(
         [class'(Styles.container)],
-        [span([class'(Styles.number)], [text(string_of_int(model))])]
-      )
-    ]
+        [span([class'(Styles.number)], [text(string_of_int(model))])],
+      ),
+    ],
   );
 
 /*
