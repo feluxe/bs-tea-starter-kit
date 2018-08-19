@@ -18,14 +18,14 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^2.2.2",
-    "bucklescript-tea": "^0.7.1",
-    "npm-run-all": "^4.1.2",
-    "webpack": "^4.1.0",
-    "webpack-cli": "^2.0.10",
-    "webpack-dev-server": "^3.1.0"
+    "bs-platform": "^4.0.5",
+    "bucklescript-tea": "^0.7.4",
+    "npm-run-all": "^4.1.3",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
-    "bs-css": "^6.3.1"
+    "bs-css": "^7.1.0"
   }
 }
