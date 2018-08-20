@@ -1,9 +1,9 @@
 open Tea.App;
-
 open Tea.Html;
 
-/*MODEL
- */
+/*
+ MODEL
+  */
 let init = () => 4;
 
 /*
@@ -37,6 +37,7 @@ Css.(
 /* Styles Definition Example */
 module Styles = {
   open Css;
+
   let header =
     Css.style([
       padding(px(20)),
@@ -44,7 +45,9 @@ module Styles = {
       backgroundColor(black),
       textAlign(center),
     ]);
+
   let headline = Css.style([margin(px(0)), color(rgb(230, 230, 230))]);
+
   let container =
     Css.style([
       display(flexBox),
@@ -52,6 +55,7 @@ module Styles = {
       backgroundColor(white),
       margin(px(20)),
     ]);
+
   let number = Css.style([fontSize(px(100))]);
 };
 
@@ -102,4 +106,4 @@ let main = beginnerProgram({model: init(), update, view});
 /*
  EXAMPLE CONSOLE LOG (using BuckleScripts Js module)
   */
-Js.log("Hello, BuckleScript and Reason!");
+Js.log("Hello, from BuckleScript and Reason!");
