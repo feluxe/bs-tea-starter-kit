@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/Demo.bs.js',
+    entry: './src/Usage.bs.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
